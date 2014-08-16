@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.randomize.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/Numbers"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="launchNumbers"
+        android:text="Numbers" />
+
+    <Button
+        android:id="@+id/Dice"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Numbers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="launchDice"
+        android:text="Dice" />
+
+    <Button
+        android:id="@+id/Coin"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Dice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="launchCoin"
+        android:text="Coin" />
+
+</RelativeLayout>
